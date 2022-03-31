@@ -28,7 +28,6 @@ header{
 
 .color-boxes{
   display: flex;
-  //flex-wrap: wrap;
   margin-bottom: 60px;
 }
 
@@ -182,8 +181,12 @@ header{
   font-weight:400;
 }
 
-
-
-
-
-
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #184e77;
+  color: white;
+  font-size: 12px;
+}

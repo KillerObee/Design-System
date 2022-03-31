@@ -1,188 +1,115 @@
-*{
-    margin: 0;
-  }
-  
-  header, body, footer{
-    font-family: 'Montserrat Alternates', Montserrat, sans-serif;
-  }
-  
-  header{
-    text-align: center;
-    max-width: 400px;
-    margin: 30px auto;
-    border-radius: 5px;
-    padding: 15px 0;
-    background-color:rgb(118, 200, 147);
-    color: white;
-  }
-  
-  .colors{
-    padding: 20px 40px;
-    background-color:rgba(181, 228, 140, 0.3);
-  }
-  
-  .colors h2{
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-  .color-boxes{
-    display: flex;
-    //flex-wrap: wrap;
-    margin-bottom: 60px;
-  }
-  
-  .color-box{
-    min-height: 100px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-    flex-grow:1;
-    flex-basis:20px;
-    transition: flex-basis 0.3s ease-out 50ms;
-  }
-  
-  .color-box h3, .color-box p{
-    display: none;
-  }
-  
-  .color-box:hover h3{
-    display: block;
-  }
-  
-  .color-box:hover p{
-    display: block;
-  }
-  
-  .color-box:hover{
-    flex-basis: 40%;
-  }
-  
-  #color1{
-    background-color: #d9ed92;
-    color: #505050;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 10px;
-  }
-  
-  #color2{
-    background-color: #99d98c;
-    color: #505050;
-  }
-  
-  #color3{
-    background-color: #76c893;
-    
-  }
-  
-  #color4{
-    background-color: #168aad;
-  }
-  
-  #color5{
-    background-color: #1e6091;
-  }
-  
-  #color6{
-    background-color: #184e77;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 10px;
-  }
-  
-  .fonts{
-    color:#184e77;
-    padding: 20px 40px;
-    background-color:rgba(52, 160, 164, 0.2);
-  }
-  
-  .fonts h2{
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-  .fonts h3{
-    text-decoration:underline;
-    margin-bottom: 15px;
-  }
-  
-  .fonts p{
-    margin-bottom: 10px;
-  }
-  
-  .fonts-boxes{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 20px 60px;
-  }
-  
-  .font-box{
-    margin-bottom: 30px;
-  }
-  
-  #Montserrat{
-    font-family: Montserrat;
-  }
-  
-  #Sans-serif{
-    font-family: sans-serif;
-  }
-  
-  .bold{
-    font-weight: bold;
-  }
-  
-  .italic{
-    font-style: italic;
-  }
-  
-  .text-styles{
-    color: #e9ffd6;
-    padding: 20px 40px;
-    background-color:rgba(30, 96, 145, 0.8);
-  }
-  
-  .styles-boxes{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 20px 60px;
-  }
-  
-  .text-styles h2{
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-  .style-box h3{
-    color: #d9ed92;
-  }
-  
-  .style-box li{
-    color: white;
-  }
-  
-  #h1{
-    font-size: 26px;
-  }
-  
-  #h2{
-    font-size: 1.5em;
-  }
-  
-  #h3{
-    font-size: 1.17em;
-  }
-  
-  #p{
-    font-weight:400;
-  }
-  
-  
-  
-  
-  
-  
-  
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Design System MK</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <header>
+    <h1>MK's Design System</h1>
+  </header>
+
+  <body>
+    <div class="colors">
+      <h2>Colors</h2>
+      <div class="color-boxes">
+        <div id="color1" class="color-box">
+          <h3>Pastel Green</h3>
+          <p>#d9ed92</p>
+        </div>
+        <div id="color2" class="color-box">
+          <h3>Green Asperg</h3>
+          <p>#99d98c</p>
+        </div>
+        <div id="color3" class="color-box">
+          <h3>Tea Green</h3>
+          <p>#76c893</p>
+        </div>
+        <div id="color4" class="color-box">
+          <h3>Bulba Blue</h3>
+          <p>#168aad</p>
+        </div>
+        <div id="color5" class="color-box">
+          <h3>Randstad Blue</h3>
+          <p>#1e6091</p>
+        </div>
+        <div id="color6" class="color-box">
+          <h3>Sierra Blue</h3>
+          <p>#184e77</p>
+        </div>
+      </div>
+    </div>
+    <div class="fonts">
+      <h2>Fonts</h2>
+      <div class="fonts-boxes">
+        <div id="Montserrat Alternates" class="font-box">
+          <h3>Montserrat Alternates</h3>
+          <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+          <p class= "italic">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div id="Montserrat" class="font-box">
+          <h3>Montserrat</h3>
+          <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+          <p class= "italic">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div id="Sans-serif" class="font-box">
+          <h3>Sans Serif</h3>
+          <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+          <p class= "italic">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-styles">
+      <h2>Text Styles</h2>
+      <div class="styles-boxes">
+        <div class="style-box">
+          <h3 id="h1">H1: Main page heading</h3>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Montserrat Alternates</li>
+          </ul>
+        </div>
+        <div class="style-box">
+          <h3 id="h2">H2: Subheading</h3>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 1.5em</li>
+            <li>Font-family: Montserrat Alternates</li>
+          </ul>
+        </div>
+        <div class="style-box">
+          <h3 id="h3">H3: Small part Subheading</h3>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 1.17em </li>
+            <li>Font-family: Montserrat Alternates</li>
+          </ul>
+        </div>
+        <div class="style-box">
+          <h3 id="p">P: Paragraph text</h3>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 1em</li>
+            <li>Font-family: Montserrat Alternates</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>

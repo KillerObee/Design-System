@@ -28,6 +28,7 @@ header{
 
 .color-boxes{
   display: flex;
+  //flex-wrap: wrap;
   margin-bottom: 60px;
 }
 
@@ -115,6 +116,7 @@ header{
 .fonts-boxes{
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px 60px;
 }
 
@@ -147,12 +149,17 @@ header{
 .styles-boxes{
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px 60px;
 }
 
 .text-styles h2{
   margin-bottom: 40px;
   text-align: center;
+}
+
+.style-box{
+  margin-bottom: 30px;
 }
 
 .style-box h3{

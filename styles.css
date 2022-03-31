@@ -17,7 +17,7 @@ header{
 }
 
 .colors{
-  padding: 20px 40px;
+  padding: 20px 10%;
   background-color:rgba(181, 228, 140, 0.3);
 }
 
@@ -94,7 +94,7 @@ header{
 
 .fonts{
   color:#184e77;
-  padding: 20px 40px;
+  padding: 20px 10%;
   background-color:rgba(52, 160, 164, 0.2);
 }
 
@@ -140,13 +140,12 @@ header{
 
 .text-styles{
   color: #e9ffd6;
-  padding: 20px 40px;
+  padding: 20px 10%;
   background-color:rgba(30, 96, 145, 0.8);
 }
 
 .styles-boxes{
   display:flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 20px 60px;
 }
@@ -189,3 +188,7 @@ footer{
   color: white;
   font-size: 12px;
 }
+
+
+
+

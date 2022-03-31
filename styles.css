@@ -28,7 +28,6 @@ header{
 
 .color-boxes{
   display: flex;
-  //flex-wrap: wrap;
   margin-bottom: 60px;
 }
 
